@@ -70,13 +70,13 @@ let weather ={
 
         //  API background :
 
-            // let bckurl = '-' + str + '-' + time ;
+             let bckurl = '-' + str + '-' + time ;
         
             // console.log(time);
         
             document.body.style.backgroundImage =       
-            // "url('https://source.unsplash.com/1600x900/?weather" + bckurl + "')";
-            "url(./weather.png)";
+             "url('https://source.unsplash.com/1600x900/?weather" + bckurl + "')";
+           // "url(./weather.png)";
         //  End of API bck 
 
         // End of Display Func 
