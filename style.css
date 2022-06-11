@@ -11,10 +11,20 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-    font-family: 'own';
+  font-family: 'own';
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+
+.tempUnit{
+  display: flex;
+  gap: 10px;
 }
 
-
+#unit{
+  cursor: pointer;
+}
 
 .card {
   /* background-color: rgba(238, 238, 238, 0.548); */
